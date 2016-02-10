@@ -1,0 +1,28 @@
+.pattern {
+
+	margin-bottom: 1em;
+	
+	header.pattern-preview {
+		
+	}
+	
+	code {
+		
+		@include round-border(4px);
+		
+		background: #eee;
+		display: block;
+		padding: 1em;
+	}
+	
+	@include susy-breakpoint($tab, $tab-columns) {
+
+		main {
+			@include span(alpha 8 of $tab-columns);
+		}
+		
+		aside {
+			@include span(4 of $tab-columns omega);
+		}
+	}
+}

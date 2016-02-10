@@ -4,6 +4,46 @@
 @import "susy";
 
 $susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: before,
+  container: 1200px,
+  container-position: center,
   columns: 12,
-  gutters: 1/4,
+  gutters: 4/8,
+  global-box-sizing: content-box,
+  last-flow: to,
 );
+
+$tab: 1024px; // At 44em,
+$tab-columns: 12; // use 12 columns.
+
+$desk: 1200px; // At 70em,
+$desk-columns: 12; // use 12 columns.
+
+
+.container {
+	@include container; // Define these elements as the grid containers.
+  overflow: hidden;
+}
+
+/* Mobile
+ =======================================
+*/
+
+
+
+/* Tablet
+ =======================================
+*/
+
+	@include susy-breakpoint($tab, $tab-columns) {
+	}
+
+/* Desktop
+ =======================================
+*/
+
+	@include susy-breakpoint($desk, $desk-columns) {
+	}
