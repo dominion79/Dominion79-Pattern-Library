@@ -16,21 +16,15 @@
 			<main>
 				<div class="pattern-markup">
 						<h3>Markup</h3>
-						<code>
-							<?php echo $pattern['markup']; ?>
-						</code>
+						<pre><code class="language-markup"><?php echo $pattern['markup']; ?></code></pre>
 				</div>
 				<div class="pattern-css">
 					<h3>CSS</h3>
-					<code>
-						<?php echo $pattern['css']; ?>
-					</code>
+					<pre><code class="language-css"><?php echo $pattern['css']; ?></code></pre>
 				</div>
 				<div class="pattern-sass">
 					<h3>SASS</h3>
-					<code>
-						<?php echo $pattern['sass']; ?>
-					</code>
+					<pre><code class="language-css"><?php echo $pattern['sass']; ?></code></pre>
 				</div>
 			</main>
 
