@@ -1,20 +1,18 @@
-<?php foreach ($patterns as $pattern): ?>
-	
 	<!-- Pattern -->
-	
+
 	<section class="pattern container">
-		
+
 		<header class="pattern-preview">
 			<h2><?php echo $pattern['name']; ?></h2>
-			
+
 			<div class="example">
-				<?php echo $pattern['exmaple']; ?>
+				<?php echo $pattern['example']; ?>
 			</div>
-		
+
 		</header>
-		
+
 		<div class="pattern-details">
-			
+
 			<main>
 				<div class="pattern-markup">
 						<h3>Markup</h3>
@@ -34,8 +32,8 @@
 						<?php echo $pattern['sass']; ?>
 					</code>
 				</div>
-			</main>	
-			
+			</main>
+
 			<aside>
 				<summary>
 					<h3>Pattern Summary</h3>
@@ -45,9 +43,7 @@
 					</ul>
 				</summary>
 			</aside>
-			
-		</div><!-- /pattern-details -->
-		
-	</section><!-- /pattern -->
 
-<?php endforeach; ?>
+		</div><!-- /pattern-details -->
+
+	</section><!-- /pattern -->
