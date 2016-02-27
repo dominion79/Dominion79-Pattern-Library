@@ -18,19 +18,19 @@
 			<main>
 				<div class="pattern-markup">
 						<h3>Markup</h3>
-						<code>
+						<code  class="language-markup">
 							<?php echo $pattern['markup']; ?>
 						</code>
 				</div>
 				<div class="pattern-css">
 					<h3>CSS</h3>
-					<code>
+					<code class="language-css">
 						<?php echo $pattern['css']; ?>
 					</code>
 				</div>
 				<div class="pattern-sass">
 					<h3>SASS</h3>
-					<code>
+					<code class="language-css">
 						<?php echo $pattern['sass']; ?>
 					</code>
 				</div>
